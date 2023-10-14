@@ -2,9 +2,9 @@
    
   --title-font: 'Concert One', sans-serif;
   --text-font:'Roboto', sans-serif;
-  --first-color : #0D1F2A  ;
+  --first-color :  #CBCEC6  ;
   --second-color : #FFF0BF  ;
-  --third-color : #CBCEC6 ;
+  --third-color : #0D1F2A;
   --fourth-color : #8C3030  ;
   --fourth-color-opacity-50 : #8c30307c  ;
   
@@ -61,7 +61,7 @@ width: 7rem;
 .body-animals {
     background-image: url('/img/backgrounds/BG.png');
     background-size: cover; 
-    background-attachment:scroll;
+    background-attachment:fixed;
    
   }
 
