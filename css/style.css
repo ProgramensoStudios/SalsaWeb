@@ -1,0 +1,94 @@
+:root{
+   
+  --title-font: 'Concert One', sans-serif;
+  --text-font:'Roboto', sans-serif;
+  --first-color : #0D1F2A  ;
+  --second-color : #FFF0BF  ;
+  --third-color : #CBCEC6 ;
+  --fourth-color : #8C3030  ;
+  --fourth-color-opacity-50 : #8c30307c  ;
+  
+      
+}
+
+/* NAVBAR */
+
+.navbar{
+    font-family: var(--title-font);
+    font-size: 1rem;
+    background-color: var(--first-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1;
+}
+
+.third-color{
+    color: var(--third-color);
+}
+
+.nav-item-pad{
+    font-size: 2rem;
+    padding: 0rem 0.5rem 0 0rem ;
+}
+
+.logo-img{
+height: 4rem;
+width: 7rem;
+}
+
+.nav-link:hover {
+    color: var(--second-color);
+  }
+
+  .nav-link:active {
+    color: var(--fourth-color);
+  }
+
+  /* Animals */
+
+  .bg-img{
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(../img/backgrounds/BG.png); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+.body-animals {
+    background-image: url('/img/backgrounds/BG.png');
+    background-size: cover; 
+    background-attachment:scroll;
+   
+  }
+
+  .cliente{
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .animal-info{
+    padding: 5rem;
+    color: var(--third-color);
+    font-size: large;
+  }
+
+  .animal-name{
+    padding: 5rem;
+    color: var(--third-color);
+    font-size: 6rem;
+  }
+
+  .bg-c1{
+    border-radius:1rem;
+    background-color:var(--first-color);
+  }
+
+  .bg-c2{
+    border-radius:1rem;
+    background-color:var(--fourth-color-opacity-50);
+  }
+
